@@ -1,0 +1,270 @@
+/* Reset default margins/padding, and same font for all elements */
+* {
+	margin:0;
+	padding:0;
+	color:black;
+}
+/* Background color of the whole page */
+body {
+	background:linear-gradient(to top, #1994FF, #87CEFA, white);
+	height:100%;
+}
+/* Navbar container */
+nav {
+	overflow:hidden;
+	font-family:"Glacial Indifference", sans-serif;
+	font-weight:bold;
+	font-size:25px;
+	border-bottom: 7px solid black;
+}
+/* Text font texts that's in the main and footer section */
+main, footer {
+	font-family:"Open Sans", sans-serif;
+}
+/* Logo on the left side of navbar */
+.logo {
+	float:left;
+	padding:1px;
+	height:85px;
+	width:85px;
+	margin:7px 0px 7px 10px;
+}
+/* Navigation bar */
+.navbar {
+	float:right;
+	list-style-type:none;
+	padding:20px;
+	margin:15px 20px 10px -50px;
+}
+/* Highlights button in navbar */
+.button {
+	float:right;
+	list-style-type:none;
+	padding:20px;
+	margin:15px 20px 10px -50px;
+}
+/* Navigation Bar text styles */
+a:link {
+	color:#0097B2;
+	text-decoration:none;
+}
+a:visited {
+	color:black;
+}
+a:hover {
+	color:#0097B2;
+}
+/* Specific designs for the home page */
+.homepagebg {
+	position:relative;
+	height:calc(100vh + 1px);
+	width:100%;
+	display:block;
+}
+.homepageheader {
+	position:absolute;
+	margin:-590px 0px 0px 50px;
+	padding:14px;
+	border-left:5px solid black;
+}
+.homeheader {
+	font-size:45px;
+}
+.homesubheader {
+	font-size:20px;
+}
+.exclamationmarks {
+	position:absolute;
+	height:70px;
+	width:70px;
+	margin:-620px 40px 0px 1250px;
+}
+.homepageinfo {
+	position:absolute;
+	margin:-450px 0px 0px 90px;
+	text-align:justify;
+	font-size:25px;
+	width:700px;
+	z-index:1;
+}
+.trashimghome {
+	position:absolute;
+	height:250px;
+	width:400px;
+	margin:-440px 0px 0px 850px;
+}
+.knowmoretext {
+	position:absolute;
+	background-color:#46697A;
+	font-size:20px;
+	margin:-180px 0px 0px 850px;
+	padding:10px;
+}
+.knowmoretext:hover {
+	background-color:white;
+}
+.homepagefooter {
+	position:absolute;
+	margin:-50px 0px 0px 330px;
+	font-size:22px;
+	white-space:nowrap;
+}
+/* Background design for the succeeding pages */
+.bg {
+	position:relative;
+	height:calc(100vh + 1px);
+	width:100%;
+	opacity:0.18;
+	display:block;
+}
+/* Specific designs for the overview page */
+.texture {
+	position:relative;
+	height: calc(100vh + 1px);
+	width:100%;
+	opacity:0.2;
+	margin:-630px 0px 0px 0px;
+	display:block;
+}
+.overviewpageinfo {
+	float:left;
+	position:absolute;
+	font-size:30px;
+	margin:-600px 50px 0px 50px;
+	text-align:justify;
+}
+.keyfacts {
+	position:absolute;
+	font-size:35px;
+	margin:-430px 0px 0px 70px;
+}
+.keyfactsinfo {
+	position:absolute;
+	font-size:28px;
+	margin:-370px 0px 0px 100px;
+	width:550px;
+	text-align:justify;
+}
+.person {
+	position:absolute;
+	float:right;
+	top:290px;
+	left:790px;
+	height:450px;
+	width:450px;
+}
+/* Specific designs for the causes page */
+.causesheader {
+	position:absolute;
+	font-size:45px;
+	margin:-610px 0px 0px 290px;
+}
+.causes {
+	margin:-540px 0px 42px 100px;
+	width:840px;
+	text-align:justify;
+}
+.causesmaininfo {
+	font-size:29px;
+	font-weight:bold;
+}
+.causessubinfo {
+	font-size:24px;
+}
+.garbage {
+	position:absolute;
+	float:right;
+	margin:-430px 0px 0px 951px;
+	height:400px;
+	width:400px;
+}
+/* Specific designs for the effects page */
+.effectsheader {
+	position:absolute;
+	font-size:40px;
+	margin:-600px 0px 0px 160px;
+}
+.effects{
+	margin:-520px 0px 98px 100px;
+	width:840px;
+	text-align:justify;
+}
+.effectsmaininfo {
+	font-size:30px;
+	font-weight:bold;
+}
+.effectssubinfo {
+	font-size:25px;
+}
+/* Border design for effects and prevention page */
+.border {
+	position:absolute;
+	float:left;
+	margin:-200px 0px 0px 0px;
+	height:200px;
+	width:200px;
+}
+/* Specific designs for the prevention page */
+.family {
+	position:absolute;
+	margin:-390px 0px 0px 450px;
+	height:300px;
+	width:370px;
+	opacity:0.2;
+}
+.expressionoriginal {
+	position:absolute;
+	margin:-600px 0px 0px 80px;
+	height:120px;
+	width:120px;
+}
+.expressionflipped {
+	transform:scaleX(-1);
+	position:absolute;
+	margin:-600px 0px 0px 1160px;
+	height:120px;
+	width:120px;
+}
+.warning {
+	position:absolute;
+	margin:-190px 0px 0px 1110px;
+	height:190px;
+	width:240px;
+}
+.preventionheader {
+	position:absolute;
+	font-size:45px;
+	margin:-595px 0px 0px 420px;
+}
+/* Table designs */
+table {
+	float:left;
+	margin:-530px 0px 98px 100px;
+	width:1100px;
+	border-collapse:collapse;
+}
+table th, table td {
+    border-left:3px solid black;
+    padding:15px;
+}
+table td:first-child, table th:first-child {
+    border-left: none;
+}
+table th {
+	font-size:35px;
+	text-align:center;
+	border-bottom:3px solid black;
+}
+table td {
+	font-size:32px;
+	text-align:justify;
+}
+table ul {
+	padding-left:20px;
+}
+.preventionpagefooter {
+	margin:-70px 0px 0px 270px;
+	font-size:22px;
+	text-align:center;
+	width:800px;
+}
